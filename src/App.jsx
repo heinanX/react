@@ -1,7 +1,11 @@
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer"
+
 const App = () => {
   return (
     <>
-      <h1>MovieDB</h1>
+      <Header />
+      <Footer />
     </>
   )
 }
