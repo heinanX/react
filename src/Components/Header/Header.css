@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+    padding: 0 1rem;
+    height: 4rem;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+header > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+header > div > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h1, p, i {
+    color: rgb(16, 215, 241);
+}
